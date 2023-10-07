@@ -23,5 +23,8 @@ urlpatterns = [
     path("login/", logine.as_view(),name="login"),
     path("cards/", cards_managing.as_view(),name="card_managing"),
     path("resources/", resources_managing.as_view(),name="resources_managing"),
-    path("trade/", Trad_managing.as_view(),name="Trade_managing"),
+    path("goals/",goals_managing.as_view(),name="goals_managing"),
+    path("balance/",balance_managing.as_view(),name="balance_managing"),
+    path("advice/",advice,name="gpt_integration"),
+    
 ]

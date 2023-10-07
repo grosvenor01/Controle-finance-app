@@ -16,3 +16,7 @@ class resource_serializer(serializers.ModelSerializer):
     class Meta:
         model = resource
         fields = '__all__'
+class goal_serializer(serializers.ModelSerializer):
+    class Meta:
+        model = goal
+        fields = '__all__'
