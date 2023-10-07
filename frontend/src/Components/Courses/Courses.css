@@ -1,0 +1,52 @@
+.CoursesPage h1 {
+  text-align: center;
+  color: #0b1861;
+  font-family: Poppins;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.CoursesPage {
+  text-align: center;
+  background-color: #f2f2f2;
+  overflow-y: scroll;
+}
+.CoursesContainer {
+  padding: 10% auto;
+  margin: 100px auto;
+}
+
+.CourseItem img {
+  margin-top: 25px;
+  border-radius: 20px;
+}
+.CourseItem {
+  text-align: left;
+}
+.Course-info-container {
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+}
+h2 {
+  overflow: hidden;
+  color: var(--Dark, #080808);
+  font-feature-settings: "clig" off, "liga" off;
+  text-overflow: ellipsis;
+  
+
+  /* H5 */
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.StartCourse{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 5px;
+}

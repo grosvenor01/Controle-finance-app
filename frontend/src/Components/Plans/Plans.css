@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.PlansPage {
+  width: 100%;
+  height: 100vh;
+  padding: 3% 20% 3% 20%;
+  background-color: #f2f2fd;
+  text-align: center;
+}
+
+.PlansPage img {
+  display: block;
+  margin: 25px auto;
+}
+.PlansPage h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 2.4375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.FreePlan {
+  height: 40rem;
+  border-radius: 0.625rem;
+  border: 1px solid var(--Accent, #6132ec);
+  background: #fff;
+  padding: 15px 20px;
+  width: 22.625rem;
+  height: 38rem;
+  flex-shrink: 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.PremiumPlan {
+  border-radius: 0.625rem;
+  background: #6132ec;
+  height: 40rem;
+  width: 22.625rem;
+  padding: 3% 10%;
+}
+
+.PlansContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.FreePlan h2 {
+  border-radius: 0.625rem;
+  border: 1px solid var(--Accent, #6132ec);
+  width: 150px;
+  margin: 20px auto;
+  color: var(--Accent, #6132ec);
+  font-family: Urbanist;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.FreePlan h3 {
+  color: #000056;
+  font-family: Inter;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+div.true p,
+div.false p {
+  color: #000056;
+  font-family: Urbanist;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: left;
+}
+div.true p img,
+div.false p img {
+  margin: 10px;
+}
+div.false p {
+  color: #81a7ba;
+  font-family: Urbanist;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: line-through;
+}
+.btn-plan {
+  border-radius: 0.625rem;
+  border: 1px solid var(--Accent, #6132ec);
+  background: #fffefe;
+  color: var(--Secondary, #000056);
+  font-family: Urbanist;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 15px 35px;
+}
+.CompanyPlan {
+  height: 39rem;
+  border-radius: 0.625rem;
+  border: 1px solid #000056;
+  background: #fff;
+  padding: 3% 10%;
+  width: 22.625rem;
+  height: 38rem;
+  flex-shrink: 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+.PremiumPlan h2 {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 2px;
+}
+.PremiumPlan h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.PremiumPlan .false {
+  color: #000;
+}
+.CompanyPlan h2 {
+  color: #000056;
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 0.625rem;
+  border: 1px solid #000056;
+  padding: 15px 20px;
+}
+.CompanyPlan h3 {
+  color: #000056;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

@@ -1,0 +1,35 @@
+.IntroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 15%;
+  
+}
+
+.hire-left h2, .HiringServices h2 {
+  color: var(--material-theme-sys-light-on-primary-container, #0b1861);
+  font-family: Poppins;
+  font-size: 2.00313rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.hire-left p {
+  color: #888;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hire-right{
+    width: 100%;
+}
+
+.HiringContainer{
+    background-color: #F2F2F2;
+}
+.HiringServices{
+    padding: 5% 15%;
+}

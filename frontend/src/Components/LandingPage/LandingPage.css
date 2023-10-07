@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.LandingPageContainer {
+  background: linear-gradient(180deg, #000056 0%, #000021 100%);
+  width: 100%;
+  min-height: 600px;
+  padding: 100px 5%;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.InsideContainer {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  padding: 3% 7.5%;
+}
+
+.rightSide {
+  display: flex;
+  width: 70%;
+  justify-content: left;
+}
+.LeftSide p,
+button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.LeftSide button {
+  width: 13.625rem;
+  height: 3.375rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: var(--Accent, #6132ec);
+  border: 0;
+  margin-top: 40px;
+}
+.LeftSide h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 4.0625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+}
+.LeftSide {
+  padding-top: 3.5%;
+  padding-right: 15%;
+}
+.rightSide img{
+  position: absolute;
+  right: 0%;
+  top: 120px;
+}

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.PageContainer {
+  width: 100%;
+  padding: 3% 5%;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline;
+}
+h1 span {
+  color: #6132ec;
+}
+
+.TitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 0;
+}
+p {
+  color: #888;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.TitleContainer div {
+  width: 90%;
+  padding-left: 5%;
+}
+
+.ServiceItem {
+  width: 16.75rem;
+  height: 18rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: #fff;
+  margin-right: 2rem;
+  padding: 2rem;
+}
+
+.ServicesContainer {
+  width: 90%;
+  margin: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  padding: 2%;
+}
+.service-h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.service-p {
+  color: #888;
+  font-family: Poppins;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
