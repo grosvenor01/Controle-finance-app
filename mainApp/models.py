@@ -16,6 +16,7 @@ class Card(models.Model):
     user = models.ForeignKey(User,on_delete=models.CASCADE)
     card_number =models.CharField(max_length=300)
     secret_key = models.CharField(max_length=300)
+    access_key = models.CharField(max_length=200,blank=True,null=True)
 class resource(models.Model):
     title = models.CharField(max_length=20)
     subtitle = models.CharField(max_length=100)
@@ -23,3 +24,10 @@ class resource(models.Model):
     applied = models.IntegerField(default=0)
     level = models.CharField(choices=(("beginner","beginner"),("intermediate","intermediate"),("advanced","advanced")),max_length=30)
     reviews = models.IntegerField()
+
+class goal(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    goal_name=models.CharField(max_length=100)
+    amount = models.FloatField()
+    progress = models.FloatField()
+    pourcentage = models.FloatField()
